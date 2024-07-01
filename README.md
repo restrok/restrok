@@ -2,7 +2,6 @@
 
 ## Contact
 - **Mail:** [fedeale.sirio@gmail.com](mailto:fedeale.sirio@gmail.com)
-- **Tel:** +54 9 11 34353972
 - **LinkedIn:** [linkedin.com/in/fedesirio](https://www.linkedin.com/in/fedesirio/)
 - **Time zone:** GTM-3
 
