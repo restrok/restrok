@@ -6,7 +6,7 @@
 - **Time zone:** GTM-3
 
 ## Career Summary
-DevOps Engineer, Cyber Security Analyst, Implementer, Network Infrastructure Engineer, and Linux System Administrator with 10+ years of experience. Skilled in cloud platforms (AWS/GCP), serverless, IaC (Terraform), containerization (Docker, Kubernetes), scripting (Python, Bash), server management, and network topology design.
+DevOps Engineer, Cyber Security Analyst, Implementer, Network Infrastructure Engineer, and Linux System Administrator with 15+ years of experience. Skilled in cloud platforms (AWS/GCP), serverless, IaC (Terraform), containerization (Docker, Kubernetes), scripting (Python, Bash), server management, and network topology design.
 
 ## Skills
 - **Linux**
