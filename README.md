@@ -27,21 +27,22 @@ With 15 years of experience across the DevOps, SRE, and Networking spectrum, I s
 
 ## Featured Projects
 
-#### garmin-training-toolkit
+### biometric-ai-platform
 **AI-Driven Biometric Intelligence Platform**
 
 * Architecture and development of an agentic system designed to transform raw biometric data into actionable training insights.
 * Implementation of multi-agent workflows using LangGraph to analyze TRIMP, Heart Rate Variability (HRV), and physical load metrics.
-* Integration of local LLM inference (Ollama / Llama 3) and cloud-based APIs, prioritizing data privacy and cost-efficiency.
-* Orchestration of data pipelines for automated ingestion and processing of FIT files.
+* Integration of local LLM inference (Gemini) and cloud-based APIs, prioritizing data privacy and cost-efficiency.
+* Orchestration of data pipelines for automated ingestion and processing of FIT files / JSON.
 
-**Tech stack:** Python, LangChain, LangGraph, Ollama, FitProfile, GitOps.
+**Tech stack:** Python, LangChain, LangGraph, Gemini, FitProfile, GitOps.
 
 ## Experience
 
-**DataArt, Remote, Argentina**
-*Senior DevOps SRE Engineer*
+**DataArt, Remote, Argentina**  
+*Senior DevOps SRE Engineer*  
 *Oct 2024 - Present*
+
 * Acting as the technical DevOps reference for the client team, operating with full autonomy and ownership over infrastructure and automation initiatives.
 * Covering the entire DevOps and operations spectrum — from infrastructure design and automation to production support and troubleshooting.
 * Architected and implemented data automation solutions that validate and process files from GCS buckets and load the results into BigQuery (GCP).
@@ -53,8 +54,8 @@ With 15 years of experience across the DevOps, SRE, and Networking spectrum, I s
 
 **Tech stack:** Terraform, GCP, Python, Cloud Run, Pub/Sub, BigQuery, Dataflow, Backstage, Linux, Slack API.
 
-**Globant, Buenos Aires, Argentina**
-*Senior DevOps Engineer*
+**Globant, Buenos Aires, Argentina**  
+*Senior DevOps Engineer*  
 *July 2021 – Current*
 * Resolution of issues and implementation of new features.
 * Daily updates in English (USA and India).
@@ -66,14 +67,15 @@ With 15 years of experience across the DevOps, SRE, and Networking spectrum, I s
 * Containers: Kubernetes, Docker.
 * Scripting: Groovy, Bash, Python, PowerShell.
 
-**Globant, Buenos Aires, Argentina**
-*SysAdmin – JPMorgan & Chase*
-*Sep 2020 – July 2021*
+**Globant, Buenos Aires, Argentina**  
+*SysAdmin – JPMorgan & Chase*     
+*Sep 2020 – July 2021*  
+
 * GIAM Operations.
 * CyberArk Operations (KMS).
 
-**Mediatel, Buenos Aires, Argentina**
-*Digital Solutions Implementer*
+**Mediatel, Buenos Aires, Argentina**   
+*Digital Solutions Implementer*   
 *Dec 2018 – Sep 2020*
 * Planning and implementation of high-density connectivity solutions.
 * Integration of various technologies.
@@ -81,8 +83,8 @@ With 15 years of experience across the DevOps, SRE, and Networking spectrum, I s
 * FTTH projects design.
 * 3D printing parts design and modeling.
 
-**Grupo Datco, Buenos Aires, Argentina**
-*Network Infrastructure Engineering Analyst*
+**Grupo Datco, Buenos Aires, Argentina**  
+*Network Infrastructure Engineering Analyst*  
 *Oct 2015 – Dec 2018*
 * Route management, protocols (TCP/IP, SNMP, PPPOE, etc.).
 * Network topologies design and documentation.
@@ -94,8 +96,8 @@ With 15 years of experience across the DevOps, SRE, and Networking spectrum, I s
 * NOC reorganization and network authentication modifications.
 * Automated systems and backup policies implementation.
 
-**WebHosting SRL, Buenos Aires, Argentina**
-*SysAdmin*
+**WebHosting SRL, Buenos Aires, Argentina**   
+*SysAdmin*    
 *Apr 2010 – Sep 2015*
 * Telephone and mail support, problem analysis, and resolution.
 * System configurations and requirements advice.
