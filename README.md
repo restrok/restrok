@@ -28,14 +28,23 @@ With 15 years of experience across the DevOps, SRE, and Networking spectrum, I s
 ## Featured Projects
 
 ### biometric-ai-platform
-**AI-Driven Biometric Intelligence Platform**
+**Product-Grade Agentic RAG Ecosystem for Athletic Performance**
 
-* Architecture and development of an agentic system designed to transform raw biometric data into actionable training insights.
-* Implementation of multi-agent workflows using LangGraph to analyze TRIMP, Heart Rate Variability (HRV), and physical load metrics.
-* Integration of local LLM inference (Gemini) and cloud-based APIs, prioritizing data privacy and cost-efficiency.
-* Orchestration of data pipelines for automated ingestion and processing of FIT files / JSON.
+* **Agentic Reasoning Layer:** Developed a multi-agent system using **LangGraph** and **Gemini 2.5 Flash** that prioritizes real physiological data (Heart Rate Drift, TRIMP) over generic age-based formulas.
+* **Native BigQuery Lakehouse:** Engineered an **Incremental ETL** pipeline that ingests raw Garmin metrics into BigQuery, enabling sub-second retrieval for AI agents while maintaining a Parquet-based audit log in GCS.
+* **FinOps & SRE:** Implemented full Infrastructure as Code (IaC) with **Terraform** on GCP, optimizing the stack for high performance within Free Tier limits (~$0.002 per agent query).
+* **Data Integrity:** Orchestrated complex data pipelines for automated ingestion of FIT/JSON files, ensuring strict validation through Pydantic data contracts.
 
-**Tech stack:** Python, LangChain, LangGraph, Gemini, FitProfile, GitOps.
+**Tech stack:** Python, LangGraph, Gemini, BigQuery, Terraform, GCS, Pydantic, GCP.
+
+### garmin-training-toolkit-sdk
+**Robust Type-Safe SDK for Biometric Data Extraction**
+
+* **Anti-Corruption Layer:** Built a standalone, type-safe Python SDK to handle complex Garmin Connect authentication, session management, and rate limiting.
+* **High-Fidelity Telemetry:** Specialized extractors for second-by-second telemetry, HRV, Sleep, Readiness, and Training Status, returning clean, typed Pydantic models.
+* **Modern Tooling:** Managed with **uv** for performance and reproducibility, designed to be consumed by external Data Lakehouses and AI systems.
+
+**Tech stack:** Python, Pydantic, UV, OpenMeteo (Weather Enrichment).
 
 ## Experience
 
