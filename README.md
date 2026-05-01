@@ -1,126 +1,61 @@
-# Federico Alejandro Sirio
-Senior DevOps Engineer | AI Infrastructure & LLMOps Specialist
+# **Federico Alejandro Sirio**
 
-## Contact
-* **Mail:** [fedeale.sirio@gmail.com](mailto:fedeale.sirio@gmail.com)
-* **LinkedIn:** [linkedin.com/in/fedesirio](https://www.linkedin.com/in/fedesirio/)
-* **Time zone:** GMT-3
+ fedeale.sirio@gmail.com | [linkedin.com/in/fedesirio/](http://linkedin.com/in/fedesirio/) | Argentina - Remote
 
-## Career Summary
-With 15 years of experience across the DevOps, SRE, and Networking spectrum, I specialize in building the resilient infrastructure that powers modern enterprises. I am currently pivoting my deep expertise in cloud-native systems toward AI Infrastructure and LLMOps, focusing on scaling RAG architectures and optimizing LLM inference at the intersection of performance and cost-efficiency. My goal is to bridge the gap between complex ML models and stable, production-ready platform engineering.
+**Professional Summary** Senior DevOps/SRE Engineer with over a decade of expertise in architecting resilient cloud ecosystems, now specializing in AI Infrastructure and large-scale data automation. Expert in leveraging GCP and AWS to bridge the technical divide between traditional reliability engineering and the high-throughput compute demands of modern AI/ML workloads. Proven track record of spearheading end-to-end automation and optimizing compute abstraction to ensure cost-efficient, high-performance data pipelines.
 
-## Skills
-* **Linux**
-* **Cloud:** AWS, GCP
-* **Networking**
-* **Python, Bash**
-* **CI/CD**
-* **Jira**
-* **IaC**
-* **Git**
-* **Monitoring**
-* **Docker, Kubernetes**
+**Core Technical Competencies**
 
-## Languages
+* **Cloud & Infrastructure:** GCP, AWS, GKE Autopilot, Terraform, Cloud Run, GCS, GCE, AI Infrastructure.  
+* **Data & AI Infra:** BigQuery, Dataflow, Pub/Sub, Data Pipelines, FileMage, Vertex AI.  
+* **CI/CD & Automation:** GitHub Actions, Jenkins, Groovy, Python, Backstage, Bash Scripting.  
+* **Observability & Security:** Prometheus, Grafana, ELK, CyberArk, SQL Security, FinOps, IAM.  
+* **Networking:** Routing/Switching, VPN, Firewalls, Wi-Fi 6, Mikrotik, TCP/IP, SNMP.
+
+**Professional Experience**
+
+**Senior DevSecOps SRE | DataArt | Oct 2024 – Present**
+
+* Architected data automation pipelines on GCP to validate and process 30 million flight itinerary records daily into BigQuery, ensuring high-throughput data integrity.  
+* Reduced operational pipeline latency from 48 hours to under 5 minutes by spearheading the end-to-end automation of user provisioning and firewall management.  
+* Optimized Artifact Registry expenditure by engineering automated FinOps lifecycle strategies, achieving a 60% daily cost reduction.  
+* Engineered secure-by-default Terraform tooling for Service Account impersonation, significantly enhancing platform security and developer autonomy.  
+* Architected a specialized Cloud Run observability service to consolidate execution logs and automate real-time failure notifications via Slack API.
+
+**Senior DevOps Engineer | Globant | Jun 2021 – Oct 2024**
+
+* Optimized enterprise cloud expenditure by spearheading the development of AWS Lambda automation scripts that identified and pruned \~5,000 legacy functions.  
+* Engineered over 100 performance and reliability enhancements for Groovy-based Jenkins pipelines to support a global engineering squad of 36+ developers.  
+* Architected a standardized global observability stack using Prometheus and Grafana on GKE Autopilot to monitor high-throughput production workloads.  
+* Spearheaded the migration of complex legacy pipelines to GitHub Actions by developing custom reusable actions to replace outdated Jenkins logic.
+
+**Cyber Security Analyst | JPMorgan | Sept 2020 – Jun 2021**
+
+* Engineered robust security and access protocols for high-performance data environments within the GIAM Project, utilizing CyberArk and SQL to manage privileged account onboarding for large-scale database clusters.
+
+**Network Solutions Engineer | Mediatel | Dec 2018 – Sept 2020**
+
+* Architected large-scale wireless and wired network infrastructures for enterprise environments, focusing on high-density connectivity and maximum data throughput.  
+* Spearheaded the integration of custom hardware components by engineering 3D-printed solutions and Python-based automation for field deployment efficiency.
+
+**Networking Infrastructure Engineer | Grupo Datco | Oct 2015 – Dec 2018**
+
+* Spearheaded infrastructure modernization by decommissioning 5 racks of legacy WiMAX servers and consolidating services into a single, high-efficiency Mikrotik unit.  
+* Optimized network resource allocation by identifying and reclaiming four /24 IP blocks for organizational reallocation and improved routing efficiency.  
+* Engineered a remote repair script for WiMAX-E base stations, saving thousands of dollars in annual field maintenance and operational travel costs.
+
+**Education & Formal Certifications**
+
+* **GCP Professional Cloud Architect (2023)**  
+* **GCP Associate Cloud Engineer (2022)**  
+* **HCNA (Huawei Network Certified Associate) (2017)**  
+* **BS, Systems Engineering (Incomplete), UAI, Buenos Aires (2012–2019)**
+
+**Languages**
+
+* **English:** Advanced (Professional Fluency)  
 * **Spanish:** Native
-* **English:** Advanced
 
-## Featured Projects
+**Personal Projects/Research**
 
-### biometric-ai-platform
-**Product-Grade Agentic RAG Ecosystem for Athletic Performance**
-
-* **Agentic Reasoning Layer:** Developed a multi-agent system using **LangGraph** and **Gemini 2.5 Flash** that prioritizes real physiological data (Heart Rate Drift, TRIMP) over generic age-based formulas.
-* **Native BigQuery Lakehouse:** Engineered an **Incremental ETL** pipeline that ingests raw Garmin metrics into BigQuery, enabling sub-second retrieval for AI agents while maintaining a Parquet-based audit log in GCS.
-* **FinOps & SRE:** Implemented full Infrastructure as Code (IaC) with **Terraform** on GCP, optimizing the stack for high performance within Free Tier limits (~$0.002 per agent query).
-* **Data Integrity:** Orchestrated complex data pipelines for automated ingestion of FIT/JSON files, ensuring strict validation through Pydantic data contracts.
-
-**Tech stack:** Python, LangGraph, Gemini, BigQuery, Terraform, GCS, Pydantic, GCP.
-
-### garmin-training-toolkit-sdk
-**Robust Type-Safe SDK for Biometric Data Extraction**
-
-* **Anti-Corruption Layer:** Built a standalone, type-safe Python SDK to handle complex Garmin Connect authentication, session management, and rate limiting.
-* **High-Fidelity Telemetry:** Specialized extractors for second-by-second telemetry, HRV, Sleep, Readiness, and Training Status, returning clean, typed Pydantic models.
-* **Modern Tooling:** Managed with **uv** for performance and reproducibility, designed to be consumed by external Data Lakehouses and AI systems.
-
-**Tech stack:** Python, Pydantic, UV, OpenMeteo (Weather Enrichment).
-
-## Experience
-
-**DataArt, Remote, Argentina**  
-*Senior DevOps SRE Engineer*  
-*Oct 2024 - Present*
-
-* Acting as the technical DevOps reference for the client team, operating with full autonomy and ownership over infrastructure and automation initiatives.
-* Covering the entire DevOps and operations spectrum — from infrastructure design and automation to production support and troubleshooting.
-* Architected and implemented data automation solutions that validate and process files from GCS buckets and load the results into BigQuery (GCP).
-* Built end-to-end automation pipelines for operational tasks (user provisioning, endpoint configuration, firewall whitelisting, and SFTP credential management using FileMage).
-* Contributed to Python developments, providing in-depth debugging support and adding new features when needed.
-* Developed and enhanced Terraform modules, enabling greater client autonomy and reusability across teams.
-* Expanded the client’s Backstage ecosystem by creating and improving templates and custom actions to streamline new service setup.
-* Promoted observability practices, designing an “observer” service that consolidates execution results from multiple functions, logs them in a DB, and notifies Slack channels on failures.
-
-**Tech stack:** Terraform, GCP, Python, Cloud Run, Pub/Sub, BigQuery, Dataflow, Backstage, Linux, Slack API.
-
-**Globant, Buenos Aires, Argentina**  
-*Senior DevOps Engineer*  
-*July 2021 – Current*
-* Resolution of issues and implementation of new features.
-* Daily updates in English (USA and India).
-* IaC: Terraform, CloudFormation.
-* CI/CD: Jenkins, Azure DevOps.
-* Server Build: Ansible.
-* Cloud Infrastructure: AWS, GCP.
-* Serverless: Lambda Functions, Cloud Build, Cloud Run.
-* Containers: Kubernetes, Docker.
-* Scripting: Groovy, Bash, Python, PowerShell.
-
-**Globant, Buenos Aires, Argentina**  
-*SysAdmin – JPMorgan & Chase*     
-*Sep 2020 – July 2021*  
-
-* GIAM Operations.
-* CyberArk Operations (KMS).
-
-**Mediatel, Buenos Aires, Argentina**   
-*Digital Solutions Implementer*   
-*Dec 2018 – Sep 2020*
-* Planning and implementation of high-density connectivity solutions.
-* Integration of various technologies.
-* Authentication systems: Radius, LDAP, OAuth, Static Key.
-* FTTH projects design.
-* 3D printing parts design and modeling.
-
-**Grupo Datco, Buenos Aires, Argentina**  
-*Network Infrastructure Engineering Analyst*  
-*Oct 2015 – Dec 2018*
-* Route management, protocols (TCP/IP, SNMP, PPPOE, etc.).
-* Network topologies design and documentation.
-* Server farm maintenance (Argentina & Chile).
-* Platform updates and physical to VM migrations.
-* Syslog implementation, audit, and troubleshooting.
-* Radiofrequency implementation (WiFi, Wimax, LTE).
-* WiFi points implementation with Fortinet equipment.
-* NOC reorganization and network authentication modifications.
-* Automated systems and backup policies implementation.
-
-**WebHosting SRL, Buenos Aires, Argentina**   
-*SysAdmin*    
-*Apr 2010 – Sep 2015*
-* Telephone and mail support, problem analysis, and resolution.
-* System configurations and requirements advice.
-* Linux and Windows Server problem resolution.
-* Network elements initial configuration.
-* OS and software installation and configuration.
-
-## Education
-
-* **GCP Professional Cloud Architect** (Oct 2023)
-  [Credential](https://www.credential.net/409aef41-8ed1-4ec5-b9a4-a798c5dfc8ef)
-* **GCP Associate Cloud Engineer** (Jul 2022)
-  [Credential](https://www.credential.net/b7bba668-8d6f-43f2-9c3e-1faf657bad8b)
-* **HCNA (Huawei Network Certified Associate)** (Feb 2017)
-  [Credential](https://www.credential.net/9cf7f4ba-47c9-4457-8849-8b3132cbb5e0?username=federicosirio735272#gs.jwth20)
-* **BS, Systems Engineering (Abandoned)**
-  UAI, Buenos Aires, Argentina (Apr 2012 – Oct 2019)
+* [biometric-ai-platform](https://github.com/restrok/biometric-ai-platform): The World's First Agentic AI Running Coach Powered by Your Raw Telemetry
