@@ -16,11 +16,12 @@
 
 **Senior DevSecOps SRE | DataArt | Oct 2024 – Present**
 
-* Architected data automation pipelines on GCP to validate and process 30 million flight itinerary records daily into BigQuery, ensuring high-throughput data integrity.  
-* Reduced operational pipeline latency from 48 hours to under 5 minutes by spearheading the end-to-end automation of user provisioning and firewall management.  
-* Optimized Artifact Registry expenditure by engineering automated FinOps lifecycle strategies, achieving a 60% daily cost reduction.  
-* Engineered secure-by-default Terraform tooling for Service Account impersonation, significantly enhancing platform security and developer autonomy.  
-* Architected a specialized Cloud Run observability service to consolidate execution logs and automate real-time failure notifications via Slack API.
+* **High-Scale Data Architecture:** Architected and evolved event-driven ingestion pipelines to process over 30M+ flight itinerary records for a major airline. Re-architected the system with replay-safe execution and deterministic routing, slashing large-batch processing times to just ~15 minutes
+* **Operational Efficiency & Automation:** Drastically reduced operational pipeline latency from 48 hours to under 5 minutes by spearheading the end-to-end automation of user provisioning and firewall management
+* **FinOps & Cloud Security:** Engineered automated FinOps lifecycle strategies that achieved a 60% daily cost reduction in Artifact Registry. Concurrently built secure-by-default Terraform tooling for Service Account impersonation, enhancing both security and developer autonomy
+* **Observability & Proactive Operations:** Led the design roadmap for adaptive orchestration and SLA-miss alerting. Architected a specialized Cloud Run observability service to consolidate execution logs and automate real-time failure notifications via Slack
+* **Governance & Reliability:** Established runtime governance for ingestion configurations with role-based approval flows, versioned change control, and stricter pre-ingestion file screening policies to ensure maximum data quality at scale
+
 
 **Senior DevOps Engineer | Globant | Jun 2021 – Oct 2024**
 
@@ -58,4 +59,7 @@
 
 **Personal Projects/Research**
 
-* [biometric-ai-platform](https://github.com/restrok/biometric-ai-platform): The World's First Agentic AI Running Coach Powered by Your Raw Telemetry
+* [biometric-ai-platform](https://github.com/restrok/biometric-ai-platform): The World's First Agentic AI Running Coach powered by raw telemetry. Engineered a containerized, multi-user backend using Python, BigQuery 
+Vector Search, Agentic RAG (Gemini), and Docker, exposing an OpenAI-compatible API to dynamically orchestrate training plans.
+* [garmin-training-toolkit-sdk](https://github.com/restrok/garmin-training-toolkit-sdk): A robust, type-safe Python SDK for extracting biometric data and telemetry from Garmin Connect.
+* [agent-orchestrator](https://github.com/restrok/agent-orchestrator): A modular, scalable Hub-and-Spoke agentic system designed to coordinate multiple specialized Expert Agents through a central AI Supervisor. Built with LangGraph, FastAPI, and python-telegram-bot.
